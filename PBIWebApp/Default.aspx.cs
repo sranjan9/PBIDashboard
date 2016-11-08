@@ -63,7 +63,7 @@ namespace PBIWebApp
                 {"resource", "https://analysis.windows.net/powerbi/api"},
 
                 //After user authenticates, Azure AD will redirect back to the web app
-                {"redirect_uri", "http://localhost:13526/Redirect"}
+                {"redirect_uri", "http://wipro-iot-1.azurewebsites.net/Redirect"}
             };
             
             //Create sign-in query string
